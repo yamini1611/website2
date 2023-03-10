@@ -18,6 +18,10 @@
     top: 70px;
     left: 70px;
 }
+@font-face {
+    font-family: myFont;
+    src: url(Reey-Regular.otf);
+}
 /* NOODLES */
 .a3 {
     position: absolute;
@@ -34,11 +38,11 @@
 .a5 {
     position: absolute;
     top: 220px;
-    left: 70px;
-
-    font-size: 92px;
+    left: 120px;
+    
+    font-size: 72px;
     color: #ffffff;
-    font-family: "Reey";
+    font-family: myFont;
     filter: drop-shadow(0px 5px 2.5px rgba(84, 82, 79, 0.22));
 }
 /* SECOND TITLE */
@@ -64,7 +68,7 @@
     font-size: 17px;
      background-color: #e6e9ed;
      color: #070808;
-    font-weight: 900;
+    font-weight:bolder;
     font-family: "Open Sans";
     text-align: center;
     border-radius: 10px;
@@ -136,7 +140,7 @@
 #nav3 {
     text-decoration: none;
     padding-left: 75px;
-    font-weight: 190px;
+    font-weight: 700;
     font-family: "Open Sans";
     font-size: 17px;
     text-transform: uppercase;
@@ -157,12 +161,12 @@
    
 }
 /* BUTTON TAG */
-.nav5 {
-     width: 108px;
+#nav5 {
+     width: 55px;
     height: 30px;
     top: 18%;
-    left: 20%;
-    padding-left: 55px;
+    left: 52%;
+    padding-left: 25px;
     border-radius: 18px;
     border: #ffffff; 
     
@@ -198,16 +202,16 @@
 /* HEADING PAGE 2 */
 .c1 {
     position: absolute;
-    top: -27px;
+    top: -18px;
     left: 400px;
-    font-size: 75px;
+    font-size: 55px;
     color: #222328;
-    font-family: "Reey";
+    font-family: myFont;
 }
 /* PAGE 2 CONTENT */
 .c2 {
     position: absolute;
-    top: 79px;
+    top: 92px;
     left: 282px;
     width: 1008px;
     height: 150px;
@@ -217,27 +221,27 @@
     font-family: "Open Sans";
     text-align: center;
 }
-/* SECOND HEADING */
+
 .c3 {
     position: absolute;
-    top: 180px;
+    top: 200px;
     left: 630px;
 }
 
 .c4 {
     position: absolute;
-    top: 183px;
+    top: 203px;
     left: 1050px;
     height: 380px;
 }
 
 .c5 {
     position: absolute;
-    top: 180px;
+    top: 200px;
     left: 222px;
     height: 370px;
 }
-
+/* SECOND HEADING */
 .c6 {
     position: absolute;
     top: 550px;
@@ -247,7 +251,7 @@
     font-weight: 700;
     font-family: "Open Sans";
 }
-
+/* SECOND HEADING */
 .c7 {
     position: absolute;
     top: 550px;
@@ -257,7 +261,7 @@
     font-weight: 700;
     font-family: "Open Sans";
 }
-
+/* SECOND HEADING */
 .c8 {
     position: absolute;
     top: 550px;
@@ -268,7 +272,7 @@
 
     font-family: "Open Sans";
 }
-
+/* SECOND CONTENT */
 .c9 {
     position: absolute;
     top: 604px;
@@ -280,7 +284,7 @@
     height: 20px;
     left: 252px;
 }
-
+/* SECOND CONTENT */
 .c10 {
     position: absolute;
     top: 604px;
@@ -292,7 +296,7 @@
     height: 20px;
     left: 652px;
 }
-
+/* SECOND CONTENT */
 .c11 {
     position: absolute;
     top: 604px;
@@ -305,7 +309,7 @@
     left: 1102px;
    
 }
-
+/* BUTTON */
 .c12 {
     position: absolute;
     color: #ffffff;
@@ -327,27 +331,27 @@
     letter-spacing: 5px;
     
 }
-
+/* PAGE 3 STYLING */
 .page3 {
     position: relative;
     top: 20%;
     left: 0px;
     height: 0%;
 }
-
+/* TITLE */
 .d1 {
     position: absolute;
-    top: 1800px;
+    top: 1850px;
     left: 455px;
-    font-size: 75px;
+    font-size: 60px;
     line-height: 52px;
     color: #ffffff;
-    font-family: "Reey";
+    font-family: myFont;
 }
-
+/* CONTENT */
 .d2 {
     position: absolute;
-    top: 1950px;
+    top: 2000px;
     left: 355px;
     font-size: 24px;
     line-height: 26px;
@@ -358,10 +362,10 @@
 
     font-family: "Montserrat";
 }
-
+/* CONTENT */
 .d3 {
     position: absolute;
-    top: 1950px;
+    top: 2000px;
     left: 905px;
     font-size: 24px;
     line-height: 26px;
@@ -372,7 +376,7 @@
 
     font-family: "Montserrat";
 }
-
+/* BUTTON */
 .d4 {
     position: absolute;
     top: 2250px;
@@ -388,16 +392,16 @@
     text-align: center;
     border-radius: 27px;
     border: #ffffff;
-    background-color: #fdfedfed;
+    background-color: #ffffff;
     text-decoration: none;
 }
-
+/* PAGE 4 STYLING */
 .page4 {
     position: relative;
     top: 0px;
     left: 0px;
 }
-
+/* IMAGE */
 .e0 {
     position: relative;
     top: 0px;
@@ -405,17 +409,17 @@
     width: 1500px;
     height: 900px;
 }
-
+/* PASTA IMAGE */
 .e1 {
     position: absolute;
-    height: 500px;
+    height: 400px;
     top: 39px;
     left: 15%;
 }
-
+/* TITLE */
 .e2 {
     position: absolute;
-    top: 35px;
+    top: -45px;
     left: 50%;
     font-size: 58px;
     color: #27292c;
@@ -423,22 +427,22 @@
     font-family: "Open Sans";
     width: 500px
 }
-
+/* CONTENT */
 .e3 {
     position: absolute;
-    top: 225px;
+    top: 140px;
     left: 50%;
     width: 640px;
     height: 175px;
-    font-size: 29px;
+    font-size: 25px;
     color: #27292c;
     font-weight: 400;
     font-family: "Open Sans";
 }
-
+/* BUTTON */
 .e4 {
     position: absolute;
-    top: 450px;
+    top: 320px;
     width: 204px;
     left: 50%;
     height: 45px;
@@ -455,17 +459,18 @@
     padding-left: 25px;
     padding-top: 15px;
 }
-
+/* PASTA IMAGE */
 .e6 {
     position: absolute;
-    top: 480px;
-    width: 30%;
+    top: 470px;
+    width: 25%;
     right: 150px;
+    height: 400px;
 }
-
+/* TITLE */
 .e7 {
     position: absolute;
-    top: 480px;
+    top: 400px;
     left: 17%;
     font-size: 58px;
     color: #27292c;
@@ -473,22 +478,22 @@
     font-family: "Open Sans";
     width: 500px;
 }
-
+/* CONTENT */
 .e8 {
     position: absolute;
-    top: 645px;
+    top: 605px;
     left: 17%;
     width: 640px;
     height: 175px;
-    font-size: 29px;
+    font-size: 25px;
     color: #27292c;
     font-weight: 400;
     font-family: "Open Sans";
 }
-
-.e9 {
+/* BUTTON */
+#e9 {
     position: absolute;
-    top: 845px;
+    top: 805px;
     width: 200px;
     left: 17%;
     height: 35px;
@@ -506,26 +511,26 @@
     padding-top: 15px;
     
 }
-
+/* PAGE 5 STYLING */
 .page5 {
     position: relative;
     top: 20%;
     left: 0px;
     height: 0%;
 }
-
+/* TITLE */
 .g1 {
     position: absolute;
     top: 85px;
-    font-size: 75px;
+    font-size: 55px;
     letter-spacing: 5px;
     line-height: 21px;
     left: 290px;
     color: #fdf3f3;
     font-weight: 700;
-    font-family: "Open Sans";
+    font-family: myFont;
 }
-
+/* CONTENT */
 .g2 {
     position: absolute;
     top: 165px;
@@ -538,7 +543,7 @@
     display: inline-block;
     font-family: "Open Sans";
 }
-
+/* PIZZA 3/4 */
 .g3 {
     position: absolute;
    
@@ -548,7 +553,7 @@
     left:30%;
     
 }
-
+/* PIZZA SLICE */
 .g4 {
     position: absolute;
     height: 294px;
@@ -556,7 +561,7 @@
     left: 24%;
 
 }
-
+/* LEAVES */
 .g5 {
     position: absolute;
     top: -70px;
@@ -564,7 +569,7 @@
     height: 550px;
     width: 1600px;
 }
-
+/* PAGE 6 STYLING */
 .page6 {
     position: relative;
     top: 0%;
@@ -572,61 +577,61 @@
     width:"100px" ;
     height:"100px";
 }
-
+/* TITLE */
 .h1 {
     position: absolute;
     top: 330px;
-    left: 10%;
+    left: 13%;
     font-size: 42px;
     line-height: 33px;
     color: #393939;
-    font-family: "Reey";
+    font-family: myFont;
 }
-
+/* TITLE */
 .h2 {
     position: absolute;
     top: 330px;
-    left: 40%;
+    left: 43%;
     font-size: 42px;
     line-height: 33px;
     color: #393939;
-    font-family: "Reey";
+    font-family: myFont;
 }
-
+/* TITLE */
 .h3 {
     position: absolute;
     top: 330px;
-    left: 70%;
+    left: 73%;
     font-size: 42px;
     line-height: 33px;
     color: #393939;
-    font-family: "Reey";
+    font-family: myFont;
 }
-
+ /* CONTENT */
 .h4 {
     position: absolute;
-    top: 380px;
+    top: 395px;
     left: 10%;
     font-size: 19px;
     line-height: 25px;
     color: #333d42;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Open Sans";
     width: 420px;
 }
-
+ /* CONTENT */
 .h5 {
     position: absolute;
-    top: 380px;
+    top: 395px;
     left: 40%;
     font-size: 19px;
     line-height: 25px;
     color: #333d42;
-    font-weight: 200;
+    font-weight: 600;
     font-family: "Open Sans";
     width: 420px;
 }
-
+ /* CONTENT */
 .h7 {
     position: absolute;
     top: 800px;
@@ -639,21 +644,21 @@
     width: 850px;
     text-align: center;
 }
-
+ /* CONTENT */
 .h6 {
     position: absolute;
-    top: 380px;
+    top: 400px;
     left: 70%;
     width: 425px;
     height: 161px;
     font-size: 19px;
     color: #3f3f3f;
-    font-weight: 200;
+    font-weight: 600;
     font-family: "Open Sans";
    
    
 }
-
+/* LOREM IPSUM */
 .h8 {
     position: absolute;
     top: 1000px;
@@ -666,14 +671,19 @@
     font-family: "Open Sans";
     text-align: center;
 }
-
+/* PAGE 7 STYLING */
 .page7 {
     position: relative;
     top: 1200px;
     left: 0px;
     height: 20%;
+    
 }
-
+/* IMAGE */
+#v1{
+    z-index: -2;
+}
+/* TITLE */
 .i1 {
     position: absolute;
     top: 20px;
@@ -684,7 +694,7 @@
     font-family: "Open Sans";
     text-align: center;
 }
-
+ /* CONTENT */
 .i2 {
     position: absolute;
     top: 120px;
@@ -697,28 +707,28 @@
     font-family: "Open Sans";
     text-align: center;
 }
-
-.i3 {
+/* INPUT */
+ #i3 {
     position: absolute;
-    top: 345px;
-    width: 500px;
-    left: 26%;
-    height: 45px;
-    font-size: 19px;
-    border-radius: 38px;
-    background-color: #fef6f6;
-    letter-spacing: 5px;
-    line-height: 21px;
-   
-    color: #594b4b;
     font-weight: 700;
-    border: #fef6f6;
-    font-family: "Open Sans";
+    border: #fef6f6; 
     text-decoration: none;
     padding-left: 25px;
+    width: 500px;
+    height: 45px;
+    top: 345px;
+    left: 26%;
+    color: #594b4b;
+    font-family: "Open Sans";
+    padding-left: 25px;
+    border-radius: 18px;
+    border: #ffffff; 
+    font-weight: 700;
+    background-color: #f5ebeb;
+ 
 
-}
-
+} 
+/* SUBSCRIBE */
 .i4 {
     position: absolute;
     top: 341.5px;
@@ -726,7 +736,7 @@
     left: 55%;
     height: 38px;
     font-size: 14px;
-    border: #fef6f6;
+
     border-radius: 38px;
     background-color: #3a3535;
     letter-spacing: 5px;
@@ -738,23 +748,31 @@
     text-decoration: none;
     padding-left: 25px;
     padding-top: 15px;
-}
-
-.i5 {
+} 
+/* IMAGE */
+.i5{
     position: absolute;
-    top: -170px;
-    left: -5%;
-    height: 900px;
-    width: 1600px;
+    top:380px;
+    height:250px;
+    WIDTH:300px;
+    left:1%;
 }
-
+/* IMAGE */
+#i6{
+    position: absolute;
+    top:-95px;
+    height:300px;
+    width:400px;
+    right:-5%;
+}
+/* PAGE 8 STYLING */
 .page8 {
     position: relative;
     top: 1400px;
     left: 0px;
-    height: 20%;
+    height: 0%;
 }
-
+/* TITLE */
 .j1 {
     position: absolute;
     top: 20px;
@@ -764,7 +782,7 @@
     font-weight: 400;
     font-family: "Montserrat";
 }
-
+/* TITLE */
 .j2 {
     position: absolute;
     top: 20px;
@@ -774,7 +792,7 @@
     font-weight: 400;
     font-family: "Montserrat";
 }
-
+/* TITLE */
 .j3 {
     position: absolute;
     top: 20px;
@@ -784,7 +802,7 @@
     font-weight: 400;
     font-family: "Montserrat";
 }
-
+/* TITLE */
 .j4 {
     position: absolute;
     top: 20px;
@@ -794,7 +812,7 @@
     font-weight: 400;
     font-family: "Montserrat";
 }
-
+/* UL AND LI TAG */
 .j5 {
     position: absolute;
     top: 71px;
@@ -848,25 +866,76 @@ ul{
 ul{
     list-style: none;
 }
-.k1{
+
+#l1{
+    text-decoration: none;
+    color: #070808;
+     height:40%;
+   width:20%;
+}
+#l2{
+    text-decoration: none;
+    color: #070808;
+}
+#l3{
+    text-decoration: none;
+    color: #070808;
+}
+#l4{
+    text-decoration: none;
+    color: #070808;
+}
+#l5{
+    text-decoration: none;
+    color: #070808;
+}
+#p1{
+    text-decoration: none;
+    color: #070808;
+}
+#p2{
+    text-decoration: none;
+    color: #070808;
+}
+#p3{
+    text-decoration: none;
+    color: #070808;
+}
+#p4{
+    text-decoration: none;
+    color: #070808;
+}
+#p5{
+    text-decoration: none;
+    color: #070808;
+}
+#q1{
+    text-decoration: none;
+    color: #070808;
+}
+#q2{
+    text-decoration: none;
+    color: #070808;
+}
+#q3{
+    text-decoration: none;
+    color: #070808;
+}
+/* ICONS */
+#id7{
     position: absolute;
-    top:180px;
-    right: 1150px;
-    
+    top:250px;
+    right:1170px;
 }
-.insta{
-    height:80px;
-    width:80px;
-}
-.fb{
-    height:80px;
-    width:80px;
-}
-.twitter{
-    height:80px;
-    width:80px;
-}
-.watsapp{
-    height:80px;
-    width:80px;
+/* ICONS */
+#id8{
+    position: absolute;
+    top:265px;
+    right:1125px;
+    border: solid;
+    border-radius: 55px;
+    width: 45px;
+    height: 45px;
+    border-color: #060606;
+    background-color: #060606;
 }
